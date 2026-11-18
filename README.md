@@ -13,7 +13,7 @@ In this part I:
 - make confidence intervals for the mean blood pressure with two methods,
 - test if smokers have higher blood pressure than non-smokers,
 - check how reliable my test is with a power simulation (VG),
-- explain why I chose my methods, with sources (VG).
+- explain why I chose my methods, with their assumptions and limits (VG).
 
 All the analysis code is written in the notebook. The `src/` folder has the same kind of functions as small reusable modules, with three tests. The notebook does not need them to run.
 
@@ -81,7 +81,7 @@ Before the analysis I checked the number of rows and columns, the data types, mi
 4. **Confidence intervals:** normal approximation, t distribution and bootstrap. I compare them and check them with SciPy (BCa bootstrap) and with a coverage simulation (VG).
 5. **Hypothesis test:** Welch's t-test (one-sided) to test if smokers have a higher mean blood pressure. I check the assumptions (Q–Q plots, Shapiro–Wilk, Levene), and I use a permutation test, effect size and a confidence interval for the difference as extra checks.
 6. **Power simulation (VG):** how often the test finds a real difference, how big a difference is needed for 80% power, and how the sample size changes the power.
-7. **Method choices and sources (VG):** why I chose each method, with numbered references to documentation and books.
+7. **Method choices (VG):** why I chose each method, what it assumes and what its limits are. I used the course material and the NumPy and SciPy documentation.
 
 ## 5. Main results
 
