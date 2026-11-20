@@ -78,10 +78,10 @@ Before the analysis I checked the number of rows and columns, the data types, mi
 1. **Descriptive statistics:** mean, median, min and max for age, weight, height, systolic blood pressure and cholesterol (I also show the standard deviation).
 2. **Graphs:** a histogram of blood pressure, a box plot of weight by sex, a bar chart of smokers and non-smokers, and a scatter plot of age and blood pressure. Each graph has a short explanation.
 3. **Disease share and simulation:** 47 of 800 people (5.88%) have the disease. I simulate 1,000 people with the same probability (with a seed) and compare with the real share. I also repeat the simulation 10,000 times to see the normal random variation.
-4. **Confidence intervals:** normal approximation, t distribution and bootstrap. I compare them and check them with SciPy (BCa bootstrap) and with a coverage simulation (VG).
+4. **Confidence intervals:** normal approximation, t distribution and bootstrap. I compare them and check them with SciPy (BCa bootstrap) and with a coverage simulation.
 5. **Hypothesis test:** Welch's t-test (one-sided) to test if smokers have a higher mean blood pressure. I check the assumptions (Q–Q plots, Shapiro–Wilk, Levene), and I use a permutation test, effect size and a confidence interval for the difference as extra checks.
-6. **Power simulation (VG):** how often the test finds a real difference, how big a difference is needed for 80% power, and how the sample size changes the power.
-7. **Method choices (VG):** why I chose each method, what it assumes and what its limits are. I used the course material and the NumPy and SciPy documentation.
+6. **Power simulation:** how often the test finds a real difference, how big a difference is needed for 80% power, and how the sample size changes the power.
+7. **Method choices:** why I chose each method, what it assumes and what its limits are. I used the course material and the NumPy and SciPy documentation.
 
 ## 5. Main results
 
